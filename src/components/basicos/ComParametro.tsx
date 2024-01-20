@@ -1,16 +1,16 @@
 import React from 'react'
 
-interface Paramters {
+interface Parameters {
     titulo: String,
     subtitulo: String
 }
 
-export default function ComParametro(params: Paramters) {
+export default function ComParametro(params: Parameters) {
     console.log(params)
     return (
-        <div>
+        <>
             <h2>{params.titulo}</h2>
-            <h3>{params.subtitulo}</h3>
-        </div>
+            <p>{params.subtitulo}</p>
+        </>
     )
 }
