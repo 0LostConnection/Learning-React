@@ -6,7 +6,6 @@ interface Parameters {
 }
 
 export default function ComParametro(params: Parameters) {
-    console.log(params)
     return (
         <>
             <h2>{params.titulo}</h2>
