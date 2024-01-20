@@ -1,10 +1,10 @@
 import React from 'react'
 
-import './index.css'
-import Primeiro from './components/basicos/Primeiro'
-import ComParametro from './components/basicos/ComParametro'
-import Fragmento from './components/basicos/Fragmento'
-import Aleatorio from './components/basicos/Aleatorio'
+import './App.css'
+import Primeiro from './components/basics/Primeiro'
+import ComParametro from './components/basics/ComParametro'
+import Fragmento from './components/basics/Fragmento'
+import Aleatorio from './components/basics/Aleatorio'
 import Card from './components/layout/Card'
 
 export default function App() {
