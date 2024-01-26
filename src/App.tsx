@@ -16,16 +16,12 @@ export default function App() {
 
             <div className='Cards' >
                 <Card titulo='Família' color='#fb8500'>
-
-
                     <Familia surname="Saraiva">
                         <FamiliaMembro name='Geovane' />
                         <FamiliaMembro name='Pedro' />
                         <FamiliaMembro name='Amanda' />
+                        <FamiliaMembro name='Gustavo' />
                     </Familia>
-
-
-                    
                 </Card>
 
                 <Card titulo="Desafio: Aleatório" color='#5865f2'>
