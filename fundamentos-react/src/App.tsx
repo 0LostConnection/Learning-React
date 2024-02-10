@@ -22,7 +22,7 @@ import Mega from './components/mega/Mega'
 export default function App() {
     return (
         <div className='App'>
-            <h1 className='Title'>Fundamentos React</h1>
+            <h1 className='Title'>Fundamentos React 📚</h1>
             <div className='Cards'>
                 {/* Desafio: Gerador de Números da Megasena */}
                 <Card titulo='Desafio: Megasena' color='#0c8a74'>
