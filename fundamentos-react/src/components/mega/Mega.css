@@ -1,0 +1,56 @@
+/* Remover botões do input<number> */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Display */
+.MegaDisplay {
+    margin-bottom: 25px;
+}
+
+.MegaDisplay .Number {
+    font-weight: normal;
+}
+
+/* Input */
+.MegaQuantityInput {
+    margin-bottom: 10px;
+}
+
+.MegaQuantityInput input {
+    margin-left: 10px;
+    width: 35px;
+
+    font-size: 1rem;
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.MegaQuantityInput label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Buttons */
+.MegaButtons button {
+    height: 30px;
+    width: 80px;
+
+    border-style: none;
+    border-radius: 10px;
+    background-color: gray;
+
+    color: white;
+    font-size: 1rem;
+
+    transition: 0.5s;
+}
+
+.MegaButtons button:hover {
+    cursor: pointer;
+    background-color: #0c8a74;
+}
