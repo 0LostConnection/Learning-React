@@ -27,7 +27,7 @@ export default function App() {
                     <Contador numeroInicial={10} />
                 </Card>
 
-                {/* Compinente Controlado Input */}
+                {/* Componente Controlado Input */}
                 <Card titulo='Compinente Controlado (Input)' color='#dda7c4'>
                     <InputForm></InputForm>
                 </Card>
