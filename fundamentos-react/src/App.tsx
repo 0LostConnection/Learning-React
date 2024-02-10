@@ -14,13 +14,24 @@ import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
+import InputForm from './components/formulario/InputForm'
+import Contador from './components/contador/Contador'
 
 export default function App() {
     return (
         <div className='App'>
             <h1 className='Title'>Fundamentos React</h1>
-
             <div className='Cards'>
+                {/* Contador */}
+                <Card titulo='Contador (Classe)' color='#c5383c'>
+                    <Contador numeroInicial={10} />
+                </Card>
+
+                {/* Compinente Controlado Input */}
+                <Card titulo='Compinente Controlado (Input)' color='#dda7c4'>
+                    <InputForm></InputForm>
+                </Card>
+
                 {/* Comunicação Indireta */}
                 <Card titulo='Comunicação Indireta entre Componentes' color='#f25022'>
                     <IndiretaPai></IndiretaPai>
