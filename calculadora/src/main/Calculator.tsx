@@ -2,7 +2,7 @@ import './Calculator.css'
 import React, { Component } from "react"
 
 import Button from '../components/Button'
-import Display from './Display'
+import Display from '../components/Display'
 
 interface Props { }
 
