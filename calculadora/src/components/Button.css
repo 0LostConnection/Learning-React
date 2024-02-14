@@ -27,6 +27,7 @@
 }
 
 .Button.operation {
+    font-weight: bolder;
     background-color: #fa8231;
     color: #fff
 }
