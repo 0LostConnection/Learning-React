@@ -1,5 +1,6 @@
 import "./Menu.css"
 import React from "react"
+import { Link } from "react-router-dom"
 
 interface Props { }
 
@@ -9,10 +10,16 @@ export default function Menu(props: Props) {
             <nav>
                 <ul>
                     <li>
-                        <a href="/">Home</a>
+                        <Link to={"/"}>Home</Link>
                     </li>
                     <li>
-                        <a href="/">Sobre</a>
+                        <Link to={"/param/id1"}>Param #01</Link>
+                    </li>
+                    <li>
+                        <Link to={"/param/id2"}>Param #02</Link>
+                    </li>
+                    <li>
+                        <Link to={"/about"}>Sobre</Link>
                     </li>
                 </ul>
             </nav>
