@@ -7,19 +7,30 @@ interface Props { }
 export default function Menu(props: Props) {
     return (
         <aside className="Menu">
+            <div>
+                <h1>Navegação</h1>
+            </div>
             <nav>
                 <ul>
                     <li>
-                        <Link to={"/"}>Home</Link>
+                        <Link to={"/"}>
+                            <span>Home</span>
+                        </Link>
                     </li>
                     <li>
-                        <Link to={"/param/id1"}>Param #01</Link>
+                        <Link to={"/param/id1"}>
+                            <span>Param #01</span>
+                        </Link>
                     </li>
                     <li>
-                        <Link to={"/param/id2"}>Param #02</Link>
+                        <Link to={"/param/id2"}>
+                            <span>Param #02</span>
+                        </Link>
                     </li>
                     <li>
-                        <Link to={"/about"}>Sobre</Link>
+                        <Link to={"/about"}>
+                            <span>Sobre</span>
+                        </Link>
                     </li>
                 </ul>
             </nav>

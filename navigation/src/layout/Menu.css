@@ -1,8 +1,16 @@
 .Menu {
     display: flex;
+    flex-direction: column;
     flex-basis: 250px;
 
     background-color: dodgerblue;
+}
+
+.Menu h1 {
+    flex: 1;
+
+    color: white;
+    text-align: center;
 }
 
 .Menu nav {
@@ -20,8 +28,11 @@
 
 .Menu li a {
     flex: 1;
+    display: flex;
     padding: 10px;
     margin-bottom: 10px;
+
+    border-radius: 50px;
 
     text-decoration: none;
     color: white;
@@ -30,4 +41,8 @@
 
 .Menu li a:hover {
     background-color: #00000020
+}
+
+.Menu li a span {
+    padding-left: 50px;
 }
