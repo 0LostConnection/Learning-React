@@ -1,3 +1,4 @@
+import "./SectionTitle.css"
 import React from "react"
 
 interface Props {
