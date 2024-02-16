@@ -3,7 +3,7 @@ import PageTitle from '../../components/layout/PageTitle'
 
 interface Props { }
 
-export default function NotFound(props: Props) {
+export default function UseRef(props: Props) {
     return (
         <div className="UseRef">
             <PageTitle
