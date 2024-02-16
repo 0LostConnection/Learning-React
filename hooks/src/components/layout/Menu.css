@@ -1,0 +1,43 @@
+.Menu {
+    display: flex;
+    flex-basis: 250px;
+
+    background-color: dodgerblue;
+
+    z-index: 1;
+    -webkit-box-shadow: 4px 0px 17px -5px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 4px 0px 17px -5px rgba(0, 0, 0, 0.50);
+    box-shadow: 4px 0px 17px -5px rgba(0, 0, 0, 0.50);
+}
+
+.Menu nav {
+    flex-grow: 1;
+}
+
+.Menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Menu li {
+    display: flex;
+}
+
+.Menu li a {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.Menu li a:hover {
+    background: #00000020;
+}
+
+.Menu li a span {
+    padding-left: 20px;
+}
