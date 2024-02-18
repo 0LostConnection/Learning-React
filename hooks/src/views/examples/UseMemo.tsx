@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useState } from "react"
+import React, { useMemo, useState } from "react"
 import PageTitle from '../../components/layout/PageTitle'
 
 function sum(a: number, b: number) {
