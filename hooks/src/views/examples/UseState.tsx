@@ -15,7 +15,7 @@ export default function UseState(props: Props) {
                 title="Hook UseState"
                 subtitle="Estado em componentes funcionais!"
             />
-            
+
             <SectionTitle title="Exercício #01"></SectionTitle>
             <div className="center">
                 <span className="text">{count}</span>
