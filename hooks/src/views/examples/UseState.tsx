@@ -32,8 +32,10 @@ export default function UseState(props: Props) {
             </div>
 
             <SectionTitle title="Exercício #02"></SectionTitle>
-            <input type="text" className="input"
-                value={name} onChange={(e) => setName(e.target.value)} />
+            <div className="center">
+                <input type="text" className="input"
+                    value={name} onChange={(e) => setName(e.target.value)} />
+            </div>
         </div>
     )
 }

@@ -34,7 +34,6 @@ export default function UseEffect(props: Props) {
                 subtitle="Permite executar efeitos colaterais em componentes funcionais!"
             />
 
-
             <SectionTitle title="Exercício #01" />
             <div className="center">
                 <div>
@@ -42,6 +41,7 @@ export default function UseEffect(props: Props) {
                     <span className="text red">{fatorial === -1 ? 'Não existe' : fatorial}</span>
                 </div>
                 <input
+                    className="input"
                     type="number"
                     value={number}
                     onChange={e => setNumber(Number(e.target.value))}
