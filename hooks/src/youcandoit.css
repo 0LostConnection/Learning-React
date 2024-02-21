@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 5rem;
+    color: transparent;
+
+    filter: drop-shadow(2px 2px 2px #00000085);
+
+    background: linear-gradient(-45deg, #77A1D3, #79CBCA, #E684AE);
+    background-size: 400% 400%;
+
+    animation: Gradient 5s ease infinite alternate-reverse;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+        -webkit-background-clip: text;
+    }
+
+    50% {
+        background-position: 100% 50%;
+        -webkit-background-clip: text;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+        -webkit-background-clip: text;
+
+    }
+}
