@@ -2,6 +2,7 @@ import React, { useReducer, useState } from "react"
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from "../../components/layout/SectionTitle"
 import UseReducerEx1 from "./UseReducerEx1"
+import UseReducerEx2 from "./UseReducerEx2"
 import UseReducerDesafio from "./UseReducerDesafio"
 
 interface Props { }
@@ -19,6 +20,9 @@ export default function UseReducer(props: Props) {
 
             <SectionTitle title="Desafio #01" />
             <UseReducerDesafio />
+
+            <SectionTitle title="Exercício #02" />
+            <UseReducerEx2 />
         </div >
     )
 }
