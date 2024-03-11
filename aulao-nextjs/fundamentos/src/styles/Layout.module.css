@@ -1,0 +1,21 @@
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+._header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+._header a {
+    background-color: crimson;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.content {
+    height: 100%;
+}
